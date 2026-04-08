@@ -1,3 +1,13 @@
+---
+title: Email Triage Environment
+emoji: 📧
+colorFrom: blue
+colorTo: purple
+sdk: docker
+app_file: app.py
+pinned: false
+---
+
 # Email Triage Environment
 
 A production-ready OpenEnv environment for the Scaler × Meta × PyTorch Hackathon (Round 1). This environment simulates a **real-world email triage task** where an AI agent reads incoming emails and must correctly classify, prioritize, and respond to them.
