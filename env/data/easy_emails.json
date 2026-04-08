@@ -1,0 +1,112 @@
+[
+  {
+    "id": "easy_001",
+    "subject": "WINNER! You've been selected for $1,000,000!",
+    "body": "Congratulations! You are our lucky winner. Click here immediately to claim your prize. This is not a scam. Send us your bank details and we will transfer the money right away. Act now before this offer expires!",
+    "sender": "lottery@totallylegit.com",
+    "timestamp": "2026-04-01T09:15:00Z",
+    "true_category": "spam",
+    "true_priority": 5,
+    "true_action": "delete",
+    "reply_keywords": []
+  },
+  {
+    "id": "easy_002",
+    "subject": "URGENT: Server Down - Production Issue",
+    "body": "Hi Team, Our production server has been down for the last 30 minutes. Multiple customers are reporting errors. We need immediate assistance to resolve this issue. Please check the monitoring dashboard and respond ASAP.",
+    "sender": "ops-team@company.com",
+    "timestamp": "2026-04-02T14:30:00Z",
+    "true_category": "urgent",
+    "true_priority": 1,
+    "true_action": "escalate",
+    "reply_keywords": ["server", "fix", "checking"]
+  },
+  {
+    "id": "easy_003",
+    "subject": "Monthly Newsletter - April 2026 Edition",
+    "body": "Welcome to our April newsletter! This month we're excited to share updates about our new product features, upcoming webinars, and success stories from our community. Read more on our blog.",
+    "sender": "newsletter@techcompany.com",
+    "timestamp": "2026-04-03T08:00:00Z",
+    "true_category": "newsletter",
+    "true_priority": 4,
+    "true_action": "archive",
+    "reply_keywords": []
+  },
+  {
+    "id": "easy_004",
+    "subject": "Help needed with account login issues",
+    "body": "Hello, I'm unable to log into my account since yesterday. I've tried resetting my password but the reset link isn't working. Can you please help me regain access to my account? My user ID is 12345.",
+    "sender": "customer@example.com",
+    "timestamp": "2026-04-03T11:20:00Z",
+    "true_category": "support",
+    "true_priority": 2,
+    "true_action": "reply",
+    "reply_keywords": ["account", "reset", "help"]
+  },
+  {
+    "id": "easy_005",
+    "subject": "Inquiry about Enterprise Pricing Plans",
+    "body": "Dear Sales Team, I'm interested in learning more about your enterprise pricing plans. We are a company of 500+ employees and would like to understand bulk licensing options. Could we schedule a call next week?",
+    "sender": "procurement@bigcorp.com",
+    "timestamp": "2026-04-04T10:00:00Z",
+    "true_category": "inquiry",
+    "true_priority": 2,
+    "true_action": "reply",
+    "reply_keywords": ["pricing", "enterprise", "schedule"]
+  },
+  {
+    "id": "easy_006",
+    "subject": "LIMITED OFFER: Buy 1 Get 10 FREE!",
+    "body": "Don't miss out on this incredible deal! For the next 24 hours only, purchase any product and get 10 additional items absolutely free. No strings attached. Click here now!",
+    "sender": "deals@spammyoffers.net",
+    "timestamp": "2026-04-04T15:45:00Z",
+    "true_category": "spam",
+    "true_priority": 5,
+    "true_action": "delete",
+    "reply_keywords": []
+  },
+  {
+    "id": "easy_007",
+    "subject": "Critical Security Vulnerability Detected",
+    "body": "Alert: Our security system has detected a critical vulnerability in the production environment. Immediate patching is required. All team members should review the attached security advisory and implement fixes by EOD.",
+    "sender": "security@company.com",
+    "timestamp": "2026-04-05T07:30:00Z",
+    "true_category": "urgent",
+    "true_priority": 1,
+    "true_action": "escalate",
+    "reply_keywords": ["security", "patch", "vulnerability"]
+  },
+  {
+    "id": "easy_008",
+    "subject": "Weekly Product Updates - Week 14",
+    "body": "Here's what's new this week: Feature A has been launched, Feature B is in beta testing, and we've improved performance by 30%. Check out the full changelog on our website. Happy building!",
+    "sender": "product@saascompany.io",
+    "timestamp": "2026-04-06T09:00:00Z",
+    "true_category": "newsletter",
+    "true_priority": 4,
+    "true_action": "archive",
+    "reply_keywords": []
+  },
+  {
+    "id": "easy_009",
+    "subject": "Question about API integration capabilities",
+    "body": "Hi there, I'm evaluating your platform for our project. Does your API support webhook integrations? What's the rate limit for the standard plan? Also, do you have SDK documentation for Python?",
+    "sender": "developer@startup.com",
+    "timestamp": "2026-04-07T13:15:00Z",
+    "true_category": "inquiry",
+    "true_priority": 3,
+    "true_action": "reply",
+    "reply_keywords": ["API", "webhook", "documentation"]
+  },
+  {
+    "id": "easy_010",
+    "subject": "Cannot access my purchased features after upgrade",
+    "body": "Hello Support, I recently upgraded to the premium plan but I still don't have access to the premium features. My transaction ID is TXN987654. Can you please look into this and activate my features?",
+    "sender": "user@customer.org",
+    "timestamp": "2026-04-08T10:30:00Z",
+    "true_category": "support",
+    "true_priority": 2,
+    "true_action": "reply",
+    "reply_keywords": ["upgrade", "features", "transaction"]
+  }
+]

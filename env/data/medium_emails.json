@@ -1,0 +1,302 @@
+[
+  {
+    "set_id": "medium_set_001",
+    "emails": [
+      {
+        "id": "med_001",
+        "subject": "URGENT: Database breach detected",
+        "body": "Security team has identified unauthorized access to our customer database. Immediate action required to contain the breach and notify affected users.",
+        "sender": "security@company.com",
+        "timestamp": "2026-04-08T03:00:00Z",
+        "true_category": "urgent",
+        "true_priority": 1,
+        "true_action": "escalate",
+        "reply_keywords": ["breach", "security", "contain"]
+      },
+      {
+        "id": "med_002",
+        "subject": "Q2 Marketing Campaign Performance Report",
+        "body": "Attached is the quarterly performance report for our marketing campaigns. Overall ROI increased by 15% compared to Q1. Detailed analytics included.",
+        "sender": "marketing@company.com",
+        "timestamp": "2026-04-07T16:00:00Z",
+        "true_category": "newsletter",
+        "true_priority": 4,
+        "true_action": "archive",
+        "reply_keywords": []
+      },
+      {
+        "id": "med_003",
+        "subject": "Invoice #INV-2026-0445 Payment Reminder",
+        "body": "This is a friendly reminder that invoice #INV-2026-0445 for $2,450 is due in 3 days. Please process payment at your earliest convenience.",
+        "sender": "billing@vendor.com",
+        "timestamp": "2026-04-06T10:00:00Z",
+        "true_category": "support",
+        "true_priority": 3,
+        "true_action": "forward",
+        "reply_keywords": ["invoice", "payment", "process"]
+      },
+      {
+        "id": "med_004",
+        "subject": "FREE iPhone 15 - Claim Yours Now!!!",
+        "body": "Congratulations! You've been selected to receive a FREE iPhone 15. Click this link immediately to claim your device. Limited stock available!",
+        "sender": "promo@free-stuff-now.xyz",
+        "timestamp": "2026-04-08T05:30:00Z",
+        "true_category": "spam",
+        "true_priority": 5,
+        "true_action": "delete",
+        "reply_keywords": []
+      },
+      {
+        "id": "med_005",
+        "subject": "Question about bulk licensing for 200+ users",
+        "body": "Hi, we're evaluating your platform for company-wide deployment. Can you provide pricing for 200+ enterprise licenses? We'd also like to know about custom integration support.",
+        "sender": "it-director@enterprise.com",
+        "timestamp": "2026-04-07T11:30:00Z",
+        "true_category": "inquiry",
+        "true_priority": 2,
+        "true_action": "reply",
+        "reply_keywords": ["licensing", "pricing", "enterprise"]
+      }
+    ]
+  },
+  {
+    "set_id": "medium_set_002",
+    "emails": [
+      {
+        "id": "med_006",
+        "subject": "Production API latency spikes - affecting customers",
+        "body": "We're experiencing API response times of 5+ seconds in production. Multiple customers have reported timeouts. Need immediate investigation.",
+        "sender": "monitoring@company.com",
+        "timestamp": "2026-04-08T08:15:00Z",
+        "true_category": "urgent",
+        "true_priority": 1,
+        "true_action": "escalate",
+        "reply_keywords": ["API", "latency", "investigation"]
+      },
+      {
+        "id": "med_007",
+        "subject": "Weekly Team Standup Notes - April Week 2",
+        "body": "Here are the notes from this week's standup. Key updates: Feature X is 80% complete, testing begins Monday. No blockers reported.",
+        "sender": "team-lead@company.com",
+        "timestamp": "2026-04-05T17:00:00Z",
+        "true_category": "newsletter",
+        "true_priority": 5,
+        "true_action": "archive",
+        "reply_keywords": []
+      },
+      {
+        "id": "med_008",
+        "subject": "Request for proposal: Cloud migration project",
+        "body": "We're seeking proposals for migrating our on-premise infrastructure to cloud. Deadline for submissions is April 20th. Requirements document attached.",
+        "sender": "procurement@bigclient.com",
+        "timestamp": "2026-04-06T14:00:00Z",
+        "true_category": "inquiry",
+        "true_priority": 2,
+        "true_action": "reply",
+        "reply_keywords": ["proposal", "migration", "cloud"]
+      },
+      {
+        "id": "med_009",
+        "subject": "Cannot export data from dashboard",
+        "body": "The export button on the analytics dashboard is not working. Getting a 500 error when I try to download reports. Need this for tomorrow's presentation.",
+        "sender": "analyst@customer.com",
+        "timestamp": "2026-04-07T15:30:00Z",
+        "true_category": "support",
+        "true_priority": 3,
+        "true_action": "reply",
+        "reply_keywords": ["export", "dashboard", "error"]
+      },
+      {
+        "id": "med_010",
+        "subject": "Your account has been suspended - Verify now",
+        "body": "We detected unusual activity. Your account will be suspended within 24 hours unless you verify your identity by clicking this link immediately.",
+        "sender": "noreply@account-verify.net",
+        "timestamp": "2026-04-08T02:00:00Z",
+        "true_category": "spam",
+        "true_priority": 4,
+        "true_action": "delete",
+        "reply_keywords": []
+      }
+    ]
+  },
+  {
+    "set_id": "medium_set_003",
+    "emails": [
+      {
+        "id": "med_011",
+        "subject": "CRITICAL: Payment gateway down - losing revenue",
+        "body": "Our payment processing system is completely down. We're losing approximately $10K per hour in transactions. All hands on deck needed immediately.",
+        "sender": "finance@company.com",
+        "timestamp": "2026-04-08T09:00:00Z",
+        "true_category": "urgent",
+        "true_priority": 1,
+        "true_action": "escalate",
+        "reply_keywords": ["payment", "gateway", "revenue"]
+      },
+      {
+        "id": "med_012",
+        "subject": "Demo request from Fortune 500 company",
+        "body": "Hello, I'm the CTO of a Fortune 500 company. We're interested in scheduling a product demo for our executive team next week. Please coordinate with our procurement team.",
+        "sender": "cto@fortune500.com",
+        "timestamp": "2026-04-07T13:00:00Z",
+        "true_category": "inquiry",
+        "true_priority": 2,
+        "true_action": "reply",
+        "reply_keywords": ["demo", "Fortune 500", "schedule"]
+      },
+      {
+        "id": "med_013",
+        "subject": "Password reset not working",
+        "body": "I've tried resetting my password 3 times but the email never arrives. Can you manually reset it for me? My account email is user@example.com.",
+        "sender": "user@example.com",
+        "timestamp": "2026-04-07T10:00:00Z",
+        "true_category": "support",
+        "true_priority": 3,
+        "true_action": "reply",
+        "reply_keywords": ["password", "reset", "manual"]
+      },
+      {
+        "id": "med_014",
+        "subject": "New Feature Release Notes - Version 3.5.0",
+        "body": "We're excited to announce version 3.5.0 with new features including advanced analytics, custom dashboards, and improved API rate limits. Full changelog available.",
+        "sender": "releases@product.com",
+        "timestamp": "2026-04-06T09:00:00Z",
+        "true_category": "newsletter",
+        "true_priority": 4,
+        "true_action": "archive",
+        "reply_keywords": []
+      },
+      {
+        "id": "med_015",
+        "subject": "You've won a $500 Amazon gift card!",
+        "body": "As a valued customer, you've been randomly selected to receive a $500 Amazon gift card. Simply provide your address and credit card details for verification.",
+        "sender": "rewards@gift-cards-free.com",
+        "timestamp": "2026-04-08T01:00:00Z",
+        "true_category": "spam",
+        "true_priority": 5,
+        "true_action": "delete",
+        "reply_keywords": []
+      }
+    ]
+  },
+  {
+    "set_id": "medium_set_004",
+    "emails": [
+      {
+        "id": "med_016",
+        "subject": "URGENT: Data center fire suppression system activated",
+        "body": "Emergency alert: Fire suppression system has been triggered in Data Center B. All servers are being shut down automatically. Emergency teams are on-site.",
+        "sender": "datacenter-ops@company.com",
+        "timestamp": "2026-04-08T04:30:00Z",
+        "true_category": "urgent",
+        "true_priority": 1,
+        "true_action": "escalate",
+        "reply_keywords": ["datacenter", "fire", "emergency"]
+      },
+      {
+        "id": "med_017",
+        "subject": "Integration documentation for REST API v2",
+        "body": "Hi, could you share the updated REST API v2 documentation? We're planning to migrate from v1 and need to understand the breaking changes.",
+        "sender": "dev@partner.com",
+        "timestamp": "2026-04-07T09:00:00Z",
+        "true_category": "inquiry",
+        "true_priority": 3,
+        "true_action": "reply",
+        "reply_keywords": ["API", "documentation", "migration"]
+      },
+      {
+        "id": "med_018",
+        "subject": "Monthly subscription renewal confirmation",
+        "body": "Your monthly subscription of $49.99 has been successfully renewed. Next billing date: May 8, 2026. View your invoice in the billing portal.",
+        "sender": "billing@saas.com",
+        "timestamp": "2026-04-08T00:00:00Z",
+        "true_category": "newsletter",
+        "true_priority": 5,
+        "true_action": "archive",
+        "reply_keywords": []
+      },
+      {
+        "id": "med_019",
+        "subject": "Feature request: Dark mode for mobile app",
+        "body": "Would love to see dark mode support in the mobile app. Many users have requested this feature. Would significantly improve user experience for night-time usage.",
+        "sender": "feedback@user.com",
+        "timestamp": "2026-04-06T18:00:00Z",
+        "true_category": "support",
+        "true_priority": 4,
+        "true_action": "archive",
+        "reply_keywords": []
+      },
+      {
+        "id": "med_020",
+        "subject": "Act now: Limited slots available for webinar",
+        "body": "Join our exclusive webinar on AI trends. Only 10 spots left! Register now by clicking this suspicious link and sharing your personal information.",
+        "sender": "events@webinar-spam.net",
+        "timestamp": "2026-04-07T20:00:00Z",
+        "true_category": "spam",
+        "true_priority": 5,
+        "true_action": "delete",
+        "reply_keywords": []
+      }
+    ]
+  },
+  {
+    "set_id": "medium_set_005",
+    "emails": [
+      {
+        "id": "med_021",
+        "subject": "System outage affecting all EU customers",
+        "body": "Major incident: All EU region services are down due to network infrastructure failure. ETA for resolution is 2 hours. Customer communications needed.",
+        "sender": "incident-response@company.com",
+        "timestamp": "2026-04-08T07:00:00Z",
+        "true_category": "urgent",
+        "true_priority": 1,
+        "true_action": "escalate",
+        "reply_keywords": ["outage", "EU", "incident"]
+      },
+      {
+        "id": "med_022",
+        "subject": "Partnership opportunity with TechCorp",
+        "body": "We'd like to explore a strategic partnership for co-marketing and product integration. Our companies serve complementary markets. Can we schedule a call?",
+        "sender": "bizdev@techcorp.com",
+        "timestamp": "2026-04-06T15:00:00Z",
+        "true_category": "inquiry",
+        "true_priority": 2,
+        "true_action": "reply",
+        "reply_keywords": ["partnership", "integration", "call"]
+      },
+      {
+        "id": "med_023",
+        "subject": "Error when uploading files larger than 10MB",
+        "body": "Getting timeout errors when trying to upload files over 10MB. This is blocking our workflow as we regularly need to upload 20-50MB design files.",
+        "sender": "design@agency.com",
+        "timestamp": "2026-04-07T12:00:00Z",
+        "true_category": "support",
+        "true_priority": 3,
+        "true_action": "reply",
+        "reply_keywords": ["upload", "timeout", "files"]
+      },
+      {
+        "id": "med_024",
+        "subject": "Claim your FREE Tesla - Final Notice",
+        "body": "This is your FINAL NOTICE. You have been pre-selected for a free Tesla Model 3. Reply with your SSN and bank account to proceed with delivery.",
+        "sender": "tesla-giveaway@scam.org",
+        "timestamp": "2026-04-08T03:30:00Z",
+        "true_category": "spam",
+        "true_priority": 5,
+        "true_action": "delete",
+        "reply_keywords": []
+      },
+      {
+        "id": "med_025",
+        "subject": "Industry Report: SaaS Trends 2026",
+        "body": "Download our comprehensive report on SaaS industry trends for 2026. Key insights on AI integration, pricing strategies, and customer retention best practices.",
+        "sender": "research@saas-insights.com",
+        "timestamp": "2026-04-05T10:00:00Z",
+        "true_category": "newsletter",
+        "true_priority": 4,
+        "true_action": "archive",
+        "reply_keywords": []
+      }
+    ]
+  }
+]

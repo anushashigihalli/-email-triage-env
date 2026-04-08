@@ -1,0 +1,281 @@
+[
+  {
+    "batch_id": "hard_batch_001",
+    "emails": [
+      {
+        "id": "hard_001",
+        "subject": "URGENT: Ransomware attack on production servers",
+        "body": "We've detected ransomware encryption on 3 production servers. All customer data is at risk. Need immediate incident response team activation. This is a Code Red emergency.",
+        "sender": "security-ops@company.com",
+        "timestamp": "2026-04-08T02:00:00Z",
+        "true_category": "urgent",
+        "true_priority": 1,
+        "true_action": "escalate",
+        "reply_keywords": ["ransomware", "incident", "servers"]
+      },
+      {
+        "id": "hard_002",
+        "subject": "WIN $10,000 - No purchase necessary!!!",
+        "body": "You've been randomly selected for our $10,000 sweepstakes. To claim your prize, simply provide your full name, address, SSN, and bank account details. Act now!",
+        "sender": "sweepstakes@free-money.xyz",
+        "timestamp": "2026-04-08T01:00:00Z",
+        "true_category": "spam",
+        "true_priority": 8,
+        "true_action": "delete",
+        "reply_keywords": []
+      },
+      {
+        "id": "hard_003",
+        "subject": "Enterprise contract renewal - 1000 licenses",
+        "body": "Hi, our annual contract expires next month. We'd like to discuss renewal terms for 1000 licenses. Also interested in adding premium support. Can we schedule a call this week?",
+        "sender": "procurement@megacorp.com",
+        "timestamp": "2026-04-07T14:00:00Z",
+        "true_category": "inquiry",
+        "true_priority": 2,
+        "true_action": "reply",
+        "reply_keywords": ["contract", "renewal", "licenses"]
+      },
+      {
+        "id": "hard_004",
+        "subject": "Cannot access account after password reset",
+        "body": "I reset my password yesterday but still can't login. Getting 'account locked' error. I need access urgently for an important client presentation tomorrow morning.",
+        "sender": "sales.manager@customer.com",
+        "timestamp": "2026-04-07T16:30:00Z",
+        "true_category": "support",
+        "true_priority": 3,
+        "true_action": "reply",
+        "reply_keywords": ["account", "locked", "unlock"]
+      },
+      {
+        "id": "hard_005",
+        "subject": "April Product Newsletter - New Features Inside",
+        "body": "Exciting updates this month! We've launched AI-powered analytics, improved dashboard performance by 40%, and added 15 new integrations. Read the full details in our blog post.",
+        "sender": "product-updates@saas.io",
+        "timestamp": "2026-04-06T09:00:00Z",
+        "true_category": "newsletter",
+        "true_priority": 6,
+        "true_action": "archive",
+        "reply_keywords": []
+      },
+      {
+        "id": "hard_006",
+        "subject": "Critical bug in payment processing module",
+        "body": "Found a critical bug where duplicate charges are being processed for recurring subscriptions. Affected customers: ~500. Need immediate fix and refund process initiated.",
+        "sender": "qa-team@company.com",
+        "timestamp": "2026-04-07T11:00:00Z",
+        "true_category": "urgent",
+        "true_priority": 1,
+        "true_action": "escalate",
+        "reply_keywords": ["bug", "payment", "duplicate"]
+      },
+      {
+        "id": "hard_007",
+        "subject": "Verify your account within 24 hours or face suspension",
+        "body": "Your account will be permanently suspended unless you verify your identity immediately. Click this link and enter your credentials to avoid service interruption.",
+        "sender": "security@account-verification.net",
+        "timestamp": "2026-04-08T03:00:00Z",
+        "true_category": "spam",
+        "true_priority": 7,
+        "true_action": "delete",
+        "reply_keywords": []
+      },
+      {
+        "id": "hard_008",
+        "subject": "Request for technical documentation and API specs",
+        "body": "Hello, we're evaluating your platform for integration with our ERP system. Could you provide comprehensive API documentation, rate limits, and sample code for Python and Java?",
+        "sender": "tech-lead@enterprise.com",
+        "timestamp": "2026-04-06T13:00:00Z",
+        "true_category": "inquiry",
+        "true_priority": 3,
+        "true_action": "reply",
+        "reply_keywords": ["documentation", "API", "integration"]
+      }
+    ]
+  },
+  {
+    "batch_id": "hard_batch_002",
+    "emails": [
+      {
+        "id": "hard_009",
+        "subject": "URGENT: CEO requests immediate status report",
+        "body": "The CEO needs a comprehensive status report on the Q1 deliverables by 3 PM today. Please compile all project updates, metrics, and risk assessments ASAP.",
+        "sender": "exec-assistant@company.com",
+        "timestamp": "2026-04-08T08:00:00Z",
+        "true_category": "urgent",
+        "true_priority": 1,
+        "true_action": "escalate",
+        "reply_keywords": ["CEO", "report", "status"]
+      },
+      {
+        "id": "hard_010",
+        "subject": "You're a FINALIST for our $50,000 grant program!",
+        "body": "Congratulations! Your application has been shortlisted. To receive your grant, please provide banking details and pay a small processing fee of $99. Limited time offer!",
+        "sender": "grants@foundation-fake.org",
+        "timestamp": "2026-04-07T23:00:00Z",
+        "true_category": "spam",
+        "true_priority": 8,
+        "true_action": "delete",
+        "reply_keywords": []
+      },
+      {
+        "id": "hard_011",
+        "subject": "Integration failing with 503 errors",
+        "body": "Our webhook integration has been failing with 503 errors since this morning. This is blocking our order processing pipeline. Need urgent assistance to restore connectivity.",
+        "sender": "devops@customer.com",
+        "timestamp": "2026-04-08T07:30:00Z",
+        "true_category": "support",
+        "true_priority": 2,
+        "true_action": "reply",
+        "reply_keywords": ["webhook", "503", "integration"]
+      },
+      {
+        "id": "hard_012",
+        "subject": "Partnership proposal: Joint venture opportunity",
+        "body": "We're a Series B startup in the AI space. We see strong synergy between our products and would like to explore a joint venture or acquisition discussion. Are you available for a confidential call?",
+        "sender": "ceo@aistartup.com",
+        "timestamp": "2026-04-06T16:00:00Z",
+        "true_category": "inquiry",
+        "true_priority": 2,
+        "true_action": "reply",
+        "reply_keywords": ["partnership", "joint venture", "call"]
+      },
+      {
+        "id": "hard_013",
+        "subject": "Monthly Developer Newsletter - April 2026",
+        "body": "This month's highlights: New SDK releases, upcoming hackathons, tutorial series on machine learning integration, and community spotlight features. Check it out!",
+        "sender": "dev-relations@techcompany.com",
+        "timestamp": "2026-04-05T10:00:00Z",
+        "true_category": "newsletter",
+        "true_priority": 6,
+        "true_action": "archive",
+        "reply_keywords": []
+      },
+      {
+        "id": "hard_014",
+        "subject": "Compliance audit notification - Action required",
+        "body": "Annual compliance audit scheduled for April 15-20. All departments must submit documentation by April 12. Non-compliance may result in regulatory penalties.",
+        "sender": "compliance@company.com",
+        "timestamp": "2026-04-07T09:00:00Z",
+        "true_category": "urgent",
+        "true_priority": 2,
+        "true_action": "forward",
+        "reply_keywords": ["compliance", "audit", "documentation"]
+      },
+      {
+        "id": "hard_015",
+        "subject": "Free cruise vacation - You've been selected!",
+        "body": "You've won an all-expenses-paid 7-day Caribbean cruise! Simply call this premium number (charges apply) or click here with your credit card info to claim your prize.",
+        "sender": "vacation@free-cruise-scam.com",
+        "timestamp": "2026-04-08T04:00:00Z",
+        "true_category": "spam",
+        "true_priority": 8,
+        "true_action": "delete",
+        "reply_keywords": []
+      },
+      {
+        "id": "hard_016",
+        "subject": "Billing error: Charged for services not used",
+        "body": "I was charged $500 for premium features I never activated. My account shows I'm on the basic plan but billing reflects premium tier. Please investigate and refund.",
+        "sender": "customer@business.com",
+        "timestamp": "2026-04-07T14:30:00Z",
+        "true_category": "support",
+        "true_priority": 3,
+        "true_action": "reply",
+        "reply_keywords": ["billing", "refund", "charged"]
+      }
+    ]
+  },
+  {
+    "batch_id": "hard_batch_003",
+    "emails": [
+      {
+        "id": "hard_017",
+        "subject": "MASSIVE DATA LEAK - Customer information exposed",
+        "body": "Critical security incident: Customer PII has been exposed due to misconfigured S3 bucket. Approximately 100,000 records affected. Legal and PR teams must be notified immediately.",
+        "sender": "infosec@company.com",
+        "timestamp": "2026-04-08T01:30:00Z",
+        "true_category": "urgent",
+        "true_priority": 1,
+        "true_action": "escalate",
+        "reply_keywords": ["data leak", "PII", "security"]
+      },
+      {
+        "id": "hard_018",
+        "subject": "Claim your inheritance - $2.5 Million USD",
+        "body": "Dear friend, I am Barrister John Smith. I have $2.5 Million USD in unclaimed inheritance belonging to you. Send your bank details and a small fee to proceed with transfer.",
+        "sender": "barrister.smith@inheritance-claim.net",
+        "timestamp": "2026-04-07T22:00:00Z",
+        "true_category": "spam",
+        "true_priority": 8,
+        "true_action": "delete",
+        "reply_keywords": []
+      },
+      {
+        "id": "hard_019",
+        "subject": "Urgent: Server capacity at 98% - Scale needed",
+        "body": "Production servers are at 98% CPU and memory capacity. Traffic spike expected to continue. Need immediate horizontal scaling approved and implemented to prevent outage.",
+        "sender": "infrastructure@company.com",
+        "timestamp": "2026-04-08T06:00:00Z",
+        "true_category": "urgent",
+        "true_priority": 1,
+        "true_action": "escalate",
+        "reply_keywords": ["server", "capacity", "scaling"]
+      },
+      {
+        "id": "hard_020",
+        "subject": "Question about white-label solution pricing",
+        "body": "Hi, we're a consulting firm interested in your white-label solution for our clients. Can you provide pricing tiers, customization options, and SLA details for reseller partnerships?",
+        "sender": "partnerships@consulting.com",
+        "timestamp": "2026-04-06T11:00:00Z",
+        "true_category": "inquiry",
+        "true_priority": 3,
+        "true_action": "reply",
+        "reply_keywords": ["white-label", "pricing", "reseller"]
+      },
+      {
+        "id": "hard_021",
+        "subject": "Export feature not working for large datasets",
+        "body": "When trying to export reports with more than 10,000 rows, the system times out after 5 minutes. This is a recurring issue affecting our monthly reporting workflow.",
+        "sender": "analyst@enterprise.com",
+        "timestamp": "2026-04-07T13:00:00Z",
+        "true_category": "support",
+        "true_priority": 4,
+        "true_action": "reply",
+        "reply_keywords": ["export", "timeout", "datasets"]
+      },
+      {
+        "id": "hard_022",
+        "subject": "Webinar Invitation: Future of Cloud Computing 2026",
+        "body": "Join industry experts for our upcoming webinar on cloud computing trends. Topics include serverless architecture, edge computing, and AI-driven optimization. Register now!",
+        "sender": "events@cloudtech.com",
+        "timestamp": "2026-04-05T15:00:00Z",
+        "true_category": "newsletter",
+        "true_priority": 6,
+        "true_action": "archive",
+        "reply_keywords": []
+      },
+      {
+        "id": "hard_023",
+        "subject": "Act now: Your warranty is about to expire!",
+        "body": "URGENT: Your product warranty expires in 3 days. Extend now for just $299/year. Click here immediately or lose all coverage. This is your final notice!",
+        "sender": "warranty@extended-coverage.net",
+        "timestamp": "2026-04-07T19:00:00Z",
+        "true_category": "spam",
+        "true_priority": 7,
+        "true_action": "delete",
+        "reply_keywords": []
+      },
+      {
+        "id": "hard_024",
+        "subject": "Request for product demo for executive team",
+        "body": "Hello, our CTO and VP of Engineering would like a comprehensive product demo next week. We're evaluating solutions for our 300-person engineering team. Please share available time slots.",
+        "sender": "it-director@techcorp.com",
+        "timestamp": "2026-04-06T14:00:00Z",
+        "true_category": "inquiry",
+        "true_priority": 2,
+        "true_action": "reply",
+        "reply_keywords": ["demo", "executive", "engineering"]
+      }
+    ]
+  }
+]

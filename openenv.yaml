@@ -1,0 +1,33 @@
+name: email-triage-env
+version: "1.0.0"
+description: "Real-world email triage environment for AI agent training"
+author: "Hackathon Team"
+tasks:
+  - id: single_label_classification
+    description: "Classify a single email into one of 5 categories"
+    difficulty: easy
+    max_steps: 1
+    reward_range: [0.0, 1.0]
+  - id: priority_sort
+    description: "Rank 5 emails by priority"
+    difficulty: medium
+    max_steps: 5
+    reward_range: [0.0, 1.0]
+  - id: triage_and_respond
+    description: "Classify, action, and reply to 8 mixed emails"
+    difficulty: hard
+    max_steps: 16
+    reward_range: [0.0, 1.0]
+observation_space:
+  type: object
+  fields:
+    emails: list of email objects (id, subject, body, sender, timestamp)
+    current_step: int
+    task_id: str
+action_space:
+  type: object
+  fields:
+    email_id: str
+    classification: enum[spam, urgent, newsletter, support, inquiry]
+    action: enum[archive, escalate, reply, delete, forward]
+    reply_text: optional str
