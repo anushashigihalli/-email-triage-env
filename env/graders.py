@@ -145,3 +145,24 @@ def get_grader(task_id: str):
         'triage_and_respond': HardGrader()
     }
     return graders.get(task_id)
+
+
+def easy_grader(trajectory: Dict[str, Any] = None, ground_truth: Dict[str, Any] = None) -> float:
+    """Reflection-safe function grader for easy task."""
+    trajectory = trajectory or {}
+    ground_truth = ground_truth or {}
+    return EasyGrader().grade(trajectory, ground_truth)
+
+
+def medium_grader(trajectory: Dict[str, Any] = None, ground_truth: Dict[str, Any] = None) -> float:
+    """Reflection-safe function grader for medium task."""
+    trajectory = trajectory or {}
+    ground_truth = ground_truth or {}
+    return MediumGrader().grade(trajectory, ground_truth)
+
+
+def hard_grader(trajectory: Dict[str, Any] = None, ground_truth: Dict[str, Any] = None) -> float:
+    """Reflection-safe function grader for hard task."""
+    trajectory = trajectory or {}
+    ground_truth = ground_truth or {}
+    return HardGrader().grade(trajectory, ground_truth)

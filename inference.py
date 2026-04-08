@@ -69,7 +69,7 @@ def run_easy_task(env: EmailTriageEnv) -> float:
     # Reset environment
     obs = env.reset(task_id=task_id)
     
-    print(f'[START] {{"task_id": "{task_id}", "episode": {episode}}}')
+    print(f'[START] task={task_id} {{"task_id": "{task_id}", "episode": {episode}}}')
     
     total_reward = 0.0
     done = False
@@ -147,7 +147,7 @@ def run_medium_task(env: EmailTriageEnv) -> float:
     # Reset environment
     obs = env.reset(task_id=task_id)
     
-    print(f'[START] {{"task_id": "{task_id}", "episode": {episode}}}')
+    print(f'[START] task={task_id} {{"task_id": "{task_id}", "episode": {episode}}}')
     
     total_reward = 0.0
     done = False
@@ -236,7 +236,7 @@ def run_hard_task(env: EmailTriageEnv) -> float:
     # Reset environment
     obs = env.reset(task_id=task_id)
     
-    print(f'[START] {{"task_id": "{task_id}", "episode": {episode}}}')
+    print(f'[START] task={task_id} {{"task_id": "{task_id}", "episode": {episode}}}')
     
     total_reward = 0.0
     done = False

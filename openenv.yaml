@@ -6,16 +6,19 @@ tasks:
   - id: single_label_classification
     description: "Classify a single email into one of 5 categories"
     difficulty: easy
+    grader: env.graders.easy_grader
     max_steps: 1
     reward_range: [0.0, 1.0]
   - id: priority_sort
     description: "Rank 5 emails by priority"
     difficulty: medium
+    grader: env.graders.medium_grader
     max_steps: 5
     reward_range: [0.0, 1.0]
   - id: triage_and_respond
     description: "Classify, action, and reply to 8 mixed emails"
     difficulty: hard
+    grader: env.graders.hard_grader
     max_steps: 16
     reward_range: [0.0, 1.0]
 observation_space:
