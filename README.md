@@ -370,35 +370,5 @@ Before submission, verify:
 
 ---
 
-## 🎓 Hackathon Information
 
-**Event:** Scaler × Meta × PyTorch Hackathon (Round 1)  
-**Theme:** Email Triage Environment  
-**Deadline:** April 8, 2026, 11:59 PM IST  
 
----
-
-## 📄 License
-
-This project is submitted for the Scaler × Meta × PyTorch Hackathon.
-
----
-
-## 🤝 Contributing
-
-This is a hackathon submission. For production use, consider:
-- Adding more email samples for better evaluation
-- Implementing additional grading metrics (e.g., BERTScore for replies)
-- Adding rate limiting and error recovery
-- Supporting batch inference for multiple episodes
-
----
-
-## 📞 Support
-
-For issues or questions:
-1. Check the test suite for usage examples
-2. Review the API endpoint documentation
-3. Inspect structured logs during inference
-
-Good luck with the hackathon! 🚀
